@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>roupichas</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">roupichas.co</h1>
+      <nav class="navbar">
+        <a href="#">início</a>
+        <a href="#styles">categorias</a>
+        <a href="#products">mais vendidos</a>
+        <a href="#contact">contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h2>na roupichas, estilo é para todos!</h2>
+      <p>se esbalde, o caminho é por aqui</p>
+      <a href="#products" class="btn">comprar</a>
+    </div>
+  </section>
+
+  <!-- Estatísticas -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat-item">200+ <span>marcas premium</span></div>
+      <div class="stat-item">2.000+ <span>produtos exclusivos</span></div>
+      <div class="stat-item">30.000+ <span>clientes felizes</span></div>
+    </div>
+  </section>
+
+  <!-- Produtos Novos com Filtros -->
+  <section class="products" id="products">
+    <div class="container">
+      <h2>novidades</h2>
+      <div class="filter-buttons">
+        <button data-filter="all">Todos</button>
+        <button data-filter="pijama">Pijama</button>
+        <button data-filter="formal">Formal</button>
+        <button data-filter="festa">Festa</button>
+        <button data-filter="ginastica">Ginástica</button>
+      </div>
+      <div class="product-grid">
+        <div class="product" data-category="pijama">
+          <img src="/imagens/produto1.jpg" alt="conjunto preto">
+          <h3>conjunto preto</h3>
+          <p>R$ 350</p>
+        </div>
+        <div class="product" data-category="formal">
+          <img src="/imagens/produto2.jpg" alt="calça jeans">
+          <h3>calça jeans</h3>
+          <p>R$ 240 <span class="sale">R$ 260</span></p>
+        </div>
+        <div class="product" data-category="festa">
+          <img src="/imagens/produto3.jpg" alt="camisa listrada">
+          <h3>camisa listrada</h3>
+          <p>R$ 180</p>
+        </div>
+        <div class="product" data-category="ginastica">
+          <img src="/imagens/produto4.jpg" alt="moletom">
+          <h3>moletom</h3>
+          <p>R$ 160</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contagem Regressiva -->
+  <section class="countdown">
+    <div class="container">
+      <h2>promoção termina em:</h2>
+      <div id="time" class="time"></div>
+    </div>
+  </section>
+
+  <!-- Depoimentos -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>o que nossos clientes dizem</h2>
+      <div class="testimonial-grid">
+        <div class="testimonial">
+          <p>"adorei a qualidade das roupas! entrega super rápida e ótimo atendimento."</p>
+          <h4>- maria silva</h4>
+        </div>
+        <div class="testimonial">
+          <p>"produtos lindos e com preços incríveis. recomendo demais!"</p>
+          <h4>- joão oliveira</h4>
+        </div>
+        <div class="testimonial">
+          <p>"a calça jeans é perfeita. muito confortável e estilosa!"</p>
+          <h4>- ana costa</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção de Blog -->
+  <section class="blog">
+    <div class="container">
+      <h2>últimas tendências</h2>
+      <div class="blog-cards">
+        <div class="blog-card">
+          <img src="/imagens/formal.jpg" alt="Blog Post">
+          <h3>5 looks para arrasar</h3>
+          <p>confira nossas dicas de estilo para o verão 2025.</p>
+          <a href="#">leia mais</a>
+        </div>
+        <div class="blog-card">
+          <img src="/imagens/festa.jpg" alt="Blog Post">
+          <h3>as cores da moda</h3>
+          <p>descubra as cores que estão dominando as passarelas.</p>
+          <a href="#">leia mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Botão de Voltar ao Topo -->
+  <button id="backToTop">↑</button>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 roupichas.CO. todos os direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
